@@ -1,0 +1,26 @@
+.fields__cont {
+  padding: 2rem 3rem;
+  border: 3px solid black;
+}
+
+.Grid__container {
+  display: flex;
+}
+
+.Grid__container .left,
+.Grid__container.right {
+  width: 50%;
+}
+
+.Grid__container .left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.Grid__container .left div {
+  border: 1px solid black;
+}
+
+.Grid__container .left div:nth-child(1) {
+  background-image: url(https://mena-cvproject.vercel.app/static/media/WrkFlds1.bfc8a52e.png);
+}
