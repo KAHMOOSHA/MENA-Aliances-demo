@@ -1,0 +1,54 @@
+.news__letter {
+  background-color: #e6f1fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 3rem;
+  height: 500px;
+  /* font-family: "Tajawal", "Roboto", "Helvetica", "Arial", sans-serif !important; */
+  margin-bottom: 2rem !important;
+}
+
+.news__letter h1,p{
+    margin-bottom: 1rem !important;
+}
+
+.news__letter h1 {
+    font-size: 4rem;
+} 
+
+.news__letter p {
+    font-size: 1.5rem;
+}
+.TextField__cont {
+    width: 40%;
+    display: flex;
+}
+.news__letter button {
+background-color: #0d0e43;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 3.5rem;
+color: white;
+border-radius: 0 5px 5px 0;
+margin-left: -5px;
+z-index: 5;
+transition: all 0.2s ease-in-out;
+}
+.news__letter button:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #0d0e43c5;
+
+}
+
+#outlined-basic{
+    background-color: white;
+}
+
+.idid{
+    width: 90%;
+    border-top-right-radius: 0px !important ;
+}

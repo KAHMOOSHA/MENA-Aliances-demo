@@ -1,0 +1,24 @@
+.header__button__cont {
+  color: white;
+  padding: 2rem;
+  width: 55%;
+  letter-spacing: 2px;
+  line-height: 2.4rem;
+}
+.header__button__cont button {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.header__button__cont button:hover {
+  background-color: rgba(255, 255, 255, 0.345);
+  cursor: pointer;
+}
+
+.button__black:hover {
+  background-color: rgba(0, 0, 0, 0.251) !important;
+}

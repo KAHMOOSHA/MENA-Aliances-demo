@@ -1,5 +1,7 @@
 import React from "react";
 import "./grid.css";
+import HeaderButton from "../HeaderButton";
+import { Link } from "react-router-dom";
 
 const Grid = () => {
   return (
@@ -7,12 +9,44 @@ const Grid = () => {
       <h1>Work Fields</h1>
       <div className="Grid__container">
         <div className="left">
-          <div>1</div>
-          <div>2</div>
+          <div className="left__first">
+            <div className="overlay">
+              <HeaderButton
+                header="MOBILE DEVELOPMENT"
+                button="EXPLORE THE FREELANCER"
+              />
+            </div>
+          </div>
+          <div className="left__second">
+            <div className="gradiant">
+              <HeaderButton
+                header="PROJECT MANEGMENT"
+                button="EXPLORE THE FREELANCER"
+                color="black"
+                attr="button__black"
+              />
+            </div>
+            <div className="white__bored">
+              <div className="overlay"></div>
+            </div>
+          </div>
         </div>
         <div className="right">
-          <div>3</div>
-          <div>4</div>
+          <div className="right__first">
+            <div className="overlay">
+              <HeaderButton
+                header="MOBILE DEVELOPMENT"
+                button="EXPLORE THE FREELANCER"
+              />
+            </div>
+          </div>
+          <div className="right__second">
+            <div className="overlay">
+              <Link to="/work-fields">
+                <HeaderButton button="SEE ALL FIELDS" />
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </div>

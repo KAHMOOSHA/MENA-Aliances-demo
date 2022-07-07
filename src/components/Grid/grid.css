@@ -1,10 +1,11 @@
 .fields__cont {
   padding: 2rem 3rem;
-  border: 3px solid black;
 }
 
 .Grid__container {
   display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
 }
 
 .Grid__container .left,
@@ -17,10 +18,81 @@
   flex-direction: column;
   gap: 1rem;
 }
-.Grid__container .left div {
+/* .Grid__container .left div {
   border: 1px solid black;
+} */
+
+.Grid__container .left__first {
+  background-image: url(https://mena-cvproject.vercel.app/static/media/WrkFlds1.bfc8a52e.png);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.left__second {
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  position: relative;
+}
+.gradiant {
+  width: 70%;
+  height: 100%;
+  z-index: 3;
+  background-image: linear-gradient(
+    to right,
+    rgba(246, 248, 252, 1),
+    rgba(246, 248, 252, 1),
+    rgba(245, 247, 250, 1),
+    rgba(243, 239, 238, 0)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-.Grid__container .left div:nth-child(1) {
-  background-image: url(https://mena-cvproject.vercel.app/static/media/WrkFlds1.bfc8a52e.png);
+.white__bored {
+  position: relative;
+  background-image: url(https://mena-cvproject.vercel.app/static/media/WrkFlds2.bbf1792d.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 50%;
+}
+.right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.right__first {
+  position: relative;
+  width: 100;
+  height: 80%;
+  background-image: url(https://mena-cvproject.vercel.app/static/media/WrkFlds3.61498af5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.right__second {
+  position: relative;
+  height: 20%;
+  background-image: url(https://mena-cvproject.vercel.app/static/media/WrkFlds4.b1c736b6.png);
+  transition: all 0.5s ease-in-out;
+}
+.right__second:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  cursor: pointer;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.329);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }

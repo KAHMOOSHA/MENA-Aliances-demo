@@ -1,0 +1,14 @@
+.ant-carousel {
+    margin-bottom: 2rem !important;
+    background-color: rgba(161, 143, 143, 0.349) !important;
+    padding: 4rem 0 2rem 0 !important;
+}
+
+.ant-carousel .slick-dots {
+    position: static !important;
+    margin-top: 2rem;
+}
+.coursel__item{
+    display: flex !important;
+    justify-content: space-evenly;
+}
