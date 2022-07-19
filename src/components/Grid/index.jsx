@@ -14,6 +14,7 @@ const Grid = () => {
               <HeaderButton
                 header="MOBILE DEVELOPMENT"
                 button="EXPLORE THE FREELANCER"
+                link="/developers"
               />
             </div>
           </div>
@@ -24,6 +25,7 @@ const Grid = () => {
                 button="EXPLORE THE FREELANCER"
                 color="black"
                 attr="button__black"
+                link="/developers"
               />
             </div>
             <div className="white__bored">
@@ -37,13 +39,14 @@ const Grid = () => {
               <HeaderButton
                 header="MOBILE DEVELOPMENT"
                 button="EXPLORE THE FREELANCER"
+                link="/developers"
               />
             </div>
           </div>
           <div className="right__second">
             <div className="overlay">
               <Link to="/work-fields">
-                <HeaderButton button="SEE ALL FIELDS" />
+                <HeaderButton button="SEE ALL FIELDS" link="/developers" />
               </Link>
             </div>
           </div>

@@ -1,5 +1,7 @@
 import React from "react";
 import "./nav.css";
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <div className="nav">
@@ -9,8 +11,12 @@ const Navbar = () => {
           alt="logo"
         />
         <ul>
-          <li>Home</li>
-          <li>Work Fields</li>
+          <Link to="/home">
+            <li>Home</li>
+          </Link>
+          <Link to="work-fields">
+            <li>Work Fields</li>
+          </Link>
           <li>Developers</li>
           <li>About</li>
           <li>Contact Us</li>
@@ -24,13 +30,14 @@ const Navbar = () => {
 
 export default Navbar;
 
-    function Ul({}) {
-      return (<ul>
-          <li>Home</li>
-          <li>Work Fields</li>
-          <li>Developers</li>
-          <li>About</li>
-          <li>Contact Us</li>
-        </ul>);
-    }
-  
+function Ul({}) {
+  return (
+    <ul>
+      <li>Home</li>
+      <li>Work Fields</li>
+      <li>Developers</li>
+      <li>About</li>
+      <li>Contact Us</li>
+    </ul>
+  );
+}

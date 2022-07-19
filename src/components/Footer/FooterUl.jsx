@@ -5,8 +5,8 @@ function FooterUl({ header, data }) {
     <div className="footer__ul">
       <h4 className="footer__ul__header">{header}</h4>
       <ul>
-        {data.map((value) => (
-          <li>{value}</li>
+        {data.map((value, index) => (
+          <li key={index}>{value}</li>
         ))}
       </ul>
     </div>

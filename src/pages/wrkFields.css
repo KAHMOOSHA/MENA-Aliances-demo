@@ -1,0 +1,61 @@
+.wrk__flds__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  padding: 2rem 1rem;
+  margin-top: 70px;
+}
+.grid2_1,
+.grid2_2,
+.grid2_3 {
+  width: 49%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+.grid2_1 {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/menacv-7846f.appspot.com/o/1641627007817formcontact.png?alt=media");
+  background-size: cover;
+  background-position: center;
+}
+.grid2_2 {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/menacv-7846f.appspot.com/o/1641627052769header-home.jpg?alt=media");
+  background-size: cover;
+}
+.grid2_3 {
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/menacv-7846f.appspot.com/o/1641658831815headerabout.jpg?alt=media);
+  background-size: cover;
+}
+.DD__overlay {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.384);
+  position: absolute;
+  bottom: 400px;
+  transition: all 1s ease-in-out;
+}
+.grid__item:hover .DD__overlay {
+  bottom: 0;
+}
+
+.MuiPagination-ul {
+    display: flex;
+    justify-content: center;
+    margin: 2rem !important;
+}
+
+.spinner {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MuiCircularProgress-root {
+    width: 100px !important;
+    height: 100px !important;
+}

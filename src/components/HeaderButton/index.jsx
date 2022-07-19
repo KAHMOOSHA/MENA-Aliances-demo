@@ -1,5 +1,6 @@
 import "./HeaderButton.css";
-const HeaderButton = ({ header, button, color, attr }) => {
+import { Link } from "react-router-dom";
+const HeaderButton = ({ header, button, color, attr, link }) => {
   let styles = {
     border: `2px solid ${color} `,
     color: `${color} `,
@@ -8,9 +9,11 @@ const HeaderButton = ({ header, button, color, attr }) => {
   return (
     <div className="header__button__cont">
       <h1 style={{ color: color }}> {header} </h1>
-      <button className={attr} style={styles}>
-        {button}
-      </button>
+      <Link to={link}>
+        <button className={attr} style={styles}>
+          {button}
+        </button>
+      </Link>
     </div>
   );
 };

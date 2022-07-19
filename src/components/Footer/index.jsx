@@ -1,7 +1,6 @@
 import React from "react";
 import FooterUl from "./FooterUl";
 import "./footer.css";
-// import SocialCircle from "../SocialCircle";
 
 import { FaFacebook, FaGoogle, FaTwitter, FaLinkedin } from "react-icons/fa";
 
