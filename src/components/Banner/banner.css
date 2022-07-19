@@ -29,6 +29,10 @@
   padding: 3rem;
   color: #fff;
 }
+.banner__text h1 {
+  color: white;
+  font-weight: bold;
+}
 .banner__text * {
   margin-bottom: 1.5rem;
 }
