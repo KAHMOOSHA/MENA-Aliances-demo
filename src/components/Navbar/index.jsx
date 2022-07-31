@@ -11,13 +11,15 @@ const Navbar = () => {
           alt="logo"
         />
         <ul>
-          <Link to="/home">
+          <Link to="/">
             <li>Home</li>
           </Link>
-          <Link to="work-fields">
+          <Link to="/work-fields">
             <li>Work Fields</li>
           </Link>
-          <li>Developers</li>
+          <Link to="/developers">
+            <li>Developers</li>
+          </Link>
           <li>About</li>
           <li>Contact Us</li>
         </ul>

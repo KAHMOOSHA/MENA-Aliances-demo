@@ -4,7 +4,11 @@
   font-family: "Tajawal", "Roboto", "Helvetica", "Arial", sans-serif !important;
 }
 
-button{
+button {
   border: none;
   background-color: transparent;
+}
+
+#webpack-dev-server-client-overlay-div {
+  display: none !important;
 }

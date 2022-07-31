@@ -1,3 +1,10 @@
-.workers{
-    width: 24%;
+.developer__info {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.developer__info h1 {
+    font-size: 1.5rem ;
 }
